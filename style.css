@@ -97,7 +97,7 @@ em {
 }
 
 code {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Montserrat", monospace;
     font-weight: normal;
     text-indent: 0;
     letter-spacing: 0;
@@ -203,7 +203,7 @@ html {
     border-radius: inherit;
     padding: 3rem 2rem;
     max-width: 100%;
-    width: 25rem;
+    width: 29rem;
 }
 
 #main>.inner>* {
@@ -306,7 +306,7 @@ h1 .li, h2 .li, h3 .li, p .li {
 
 h1, h2, h3, p {
     color: #4F5C63;
-    font-family: 'Source Sans Pro';
+    font-family: "Montserrat";
     letter-spacing: -0.025rem;
     width: 100%;
     font-size: 2.25em;
@@ -314,11 +314,22 @@ h1, h2, h3, p {
     font-weight: 300;
 }
 
+a {
+    color: #4682B4; 
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+    transition: 0.3s; 
+    background-color: transparent;
+}
+
 .links {
     cursor: default;
     padding: 0;
     line-height: 1.5;
-    font-family: 'Source Sans Pro';
+    font-family: "Montserrat";
     letter-spacing: 0.025rem;
     font-size: 1em;
     font-weight: 300;
